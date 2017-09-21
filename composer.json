@@ -1,0 +1,10 @@
+{
+    "require": {
+        "behatch/contexts": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Behat\\": "features/bootstrap"
+        }
+    }
+}

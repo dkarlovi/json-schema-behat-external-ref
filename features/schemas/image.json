@@ -1,0 +1,32 @@
+{
+    "title": "image",
+    "type": "object",
+    "required": [
+        "id",
+        "name"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "udid"
+        },
+        "name": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "created_by": {
+            "$ref": "user.json"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "updated_by": {
+            "$ref": "user.json"
+        }
+    },
+    "additionalProperties": false
+}

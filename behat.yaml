@@ -1,0 +1,7 @@
+default:
+  calls:
+    error_reporting: -1
+  suites:
+    default:
+      contexts:
+        - App\Behat\JsonContext
