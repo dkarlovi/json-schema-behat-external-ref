@@ -56,8 +56,8 @@ Feature: JSON Schema test
     """
     {
         "type": "array",
-        "id": "file://features/my.feature",
-        "items": {"$ref": "schemas/image.json"},
+        "id": "features/my.feature",
+        "items": {"$ref": "../schemas/image.json"},
         "minItems": 2,
         "maxItems": 2,
         "uniqueItems": true,
